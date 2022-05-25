@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1> for with checkbox and radio button in Vue js</h1>
+    <SignUp />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import SignUp from './components/SignUp';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SignUp
   }
 }
 </script>
